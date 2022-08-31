@@ -6,19 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Design LandingPage</title>
-    <style>
-        .image {
-            width: 500px;
-            height: 500px
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- conatiner -->
     <div class="conatiner">
         <div class="navbar">
-            <div class="log">
+            <div class="logo">
                 <img src="./images/white-logo.png" alt="logo" class="our-logo">
             </div>
             <div class="ul-list">
@@ -53,17 +48,18 @@
                     </div>
                 </div>
                 <div class="about-me-btn">
-                    <button class="about-me">About Me</button>
+                    <button class="btn">About Me</button>
                 </div>
             </div>
         </div>
 
+
         <!-- What Hero Do -->
         <div class="hero-skill">
             <!-- UI design -->
-            <div class="ul-design">
+            <div class="ui-design">
                 <div class="ui-logo">
-                    <img src="./Product design LandingPage/uiDesign.svg" alt="ui Design" class="ui-design-logo">
+                    <img src="./Product design LandingPage/ui.svg" alt="ui Design" class="ui-design-logo">
                 </div>
                 <div class="ui-design-heading">
                     <h2 class="ui-heading">UI Design</h2>
@@ -81,7 +77,7 @@
             <!-- Produc-design -->
             <div class="product-design">
                 <div class="product-design-logo">
-                    <img src="./Product design LandingPage/productDesign.svg" alt="Product Design" class="product-logo">
+                    <img src="./Product design LandingPage/product.svg" alt="Product Design" class="product-logo">
                 </div>
                 <div class="product-design-heading">
                     <h2 class="product-heading">Product Design</h2>
@@ -100,19 +96,19 @@
             <!-- Branding -->
             <div class="branding">
                 <div class="branding-logo">
-                    <img src="./Product design LandingPage/branding.svg" alt="branding" class="branding-logo">
+                    <img src="./Product design LandingPage/branding.svg" alt="branding" class="brand-logo">
                 </div>
                 <div class="branding-heading">
-                    <h2 class="branding-heading">Branding</h2>
+                    <h2 class="brand-heading">Branding</h2>
                 </div>
                 <div class="branding-subheading">
-                    <p class="branding-subheading">Lorem ipsum dolor sit
+                    <p class="brand-subheading">Lorem ipsum dolor sit
                         amet, consectetur
                         adipiscing elit.
                     </p>
                 </div>
                 <div class="branding-know-more">
-                    <p class="branding-know-more">KNOW MORE -></p>
+                    <p class="brand-know-more">KNOW MORE -></p>
                 </div>
             </div>
 
@@ -145,13 +141,15 @@
                     <h3 class="total-completed-project">122+</h3>
                     <p class="completed-project-description">Completed Projects</p>
                 </div>
-            </div>
-            <div class="achievments">
 
-                <h3 class="total-achievments">10</h3>
-                <p class="achievmentsdescription">Achievments</p>
+                <div class="achievments">
+
+                    <h3 class="total-achievments">10</h3>
+                    <p class="achievmentsdescription">Achievments</p>
+                </div>
             </div>
         </div>
+
 
         <!-- Projects  Heading Part -->
         <div class="project-heading">
@@ -165,35 +163,35 @@
                 </p>
             </div>
             <div class="proj-heading-right">
-                <button class="view-all">VIEW ALL</button>
+                <button class="btn">VIEW ALL</button>
             </div>
         </div>
 
         <!-- Projects -->
         <div class="projects">
-            <div class="vintage-project">
-                <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="vintage" class="vintage">
-                <div class="vintage-txt">THE Vintage</div>
-                <p class="vintage-know-more">KNOW MORE -></p>
+            <div class="project">
+                <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="vintage" class="pro-img">
+                <div class="txt">THE Vintage</div>
+                <p class="know-more">KNOW MORE -></p>
             </div>
 
-            <div class="foodasa-project">
-                <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="foodasa" class="foodasa">
-                <div class="foodasa-txt">Foodasa</div>
-                <p class="foodasa-know-more">KNOW MORE -></p>
+            <div class="project">
+                <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="foodasa" class="pro-img">
+                <div class="txt">Foodasa</div>
+                <p class="know-more">KNOW MORE -></p>
             </div>
 
-            
-            <div class="macro-accent-project">
-                <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="macro-accent" class="macro-accent">
-                <div class="macro-accent-txt">Macro Accent</div>
-                <p class="macro-accent-know-more">KNOW MORE -></p>
+
+            <div class="project">
+                <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="macro-accent" class="pro-img">
+                <div class="txt">Macro Accent</div>
+                <p class="know-more">KNOW MORE -></p>
             </div>
 
-            <div class="mozaik-project">
-                <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="mozaik" class="mozaik">
-                <div class="mozaik-txt">Mozaik</div>
-                <p class="mozaik-know-more">KNOW MORE -></p>
+            <div class="project">
+                <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="mozaik" class="pro-img">
+                <div class="txt">Mozaik</div>
+                <p class="know-more">KNOW MORE -></p>
             </div>
         </div>
 
@@ -206,13 +204,14 @@
                         your next project</h1>
                 </div>
                 <div class="connection-subheading">
-                    <p class="conntection-subheading-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis augue
+                    <p class="conntection-subheading-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                        mollis augue
                         eget mauris consectetur rutrum</p>
                 </div>
             </div>
             <div class="contact-right">
                 <div class="contact-btn">
-                    <button class="contact">CONTACT</button>
+                    <button class="btn">CONTACT</button>
                 </div>
             </div>
         </div>
@@ -228,24 +227,26 @@
             </ul>
         </div>
 
-    
+
 
         <!-- footer -->
 
         <footer class="footer">
-            <div class="footer-logo">
-                <img src="./images/white-logo.png" alt="logo" class="footer-logo-img">
+            <div class="bottom-logo">
+                <img src="./images/white-logo.png" alt="logo" class="our-logo">
             </div>
-            <div class="facebook">
-                <img src="./Product design LandingPage/facbook.svg" alt="facbook" class="fb">
-            </div>
+            <div class="social">
+                <div class="social-icon">
+                    <img src="./Product design LandingPage/fb.svg" alt="facbook" class="facebook">
+                </div>
 
-            <div class="twitter">
-                <img src="./Product design LandingPage/twitter.svg" alt="twitter" class="tweet">
-            </div>
+                <div class="social-icon">
+                    <img src="./Product design LandingPage/twitter.svg" alt="twitter" class="twitter">
+                </div>
 
-            <div class="youtube">
-                <img src="./Product design LandingPage/youtube.svg" alt="Youtube" class="utube">
+                <div class="social-icon">
+                    <img src="./Product design LandingPage/youtube.svg" alt="Youtube" class="youtube">
+                </div>
             </div>
         </footer>
 
