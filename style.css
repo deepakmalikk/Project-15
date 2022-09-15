@@ -383,7 +383,7 @@
     background-color: #1E1E1E;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+
 
 
 
@@ -402,4 +402,136 @@
     gap: 50px;
     margin-top: 35px;
     padding-left: 300px;
+}
+
+/* making responsive design */
+
+@media screen and (max-width: 780px) {
+    .conatiner {
+        width: 780px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 20px;
+    }
+
+    .our-logo {
+        height: 30px;
+    }
+
+    .ul-list {
+        margin-left: 80px;
+
+    }
+
+    .list {
+        gap: 20px;
+    }
+
+    .hero {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero-img {
+        height: 420px;
+        width: 420px;
+
+    }
+
+    .hero-right {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    .hero-skill {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ui-design,
+    .branding {
+        margin-top: 15px;
+    }
+
+    .product-design {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .overall-experience {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .years-desciption {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    .experince-right {
+        margin-top: 30px;
+        margin-left: 80px;
+        gap: 30px
+    }
+
+    .project-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 100px;
+    }
+
+    .proj-heading-right {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .projects {
+        margin-left: 100px;
+    }
+
+    .contact-info {
+        width: 780px;
+        margin-left: 0px;
+        gap: 0px;
+
+    }
+
+    .contact-right {
+        margin-left: 30px;
+    }
+
+    .bottom-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+
+    }
+
+    .bottom-logo {
+        margin-left: 20px;
+    }
+
+    .social {
+        gap: 20px;
+        padding-left: 250px;
+    }
 }
